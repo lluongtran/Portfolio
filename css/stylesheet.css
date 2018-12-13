@@ -15,7 +15,7 @@ body {
    
     footer {
       background-color: #2c2424;
-      border-radius: 10px;
+      border-radius: 15px;
       box-shadow: 2px 5px 12px #888888;
       color: #ffffff;
       padding: 10px;
@@ -25,13 +25,13 @@ body {
 
 .bg-1 { 
     background-image: linear-gradient(to bottom right, #001a33, #00264d,#006699, #1ac6ff); 
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 2px 5px 12px #888888;
     color: #ffffff;
 }
 .bg-2 { 
     background-color: #ffffff; 
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 2px 5px 12px #888888;
     color: #00264d;
 }

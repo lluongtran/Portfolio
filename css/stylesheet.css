@@ -33,7 +33,8 @@ footer {
 }
 
 .bg-1:hover {
-    box-shadow: 4px 10px 24px #888888;
+    box-shadow: 6px 15px 36px #888888;
+    transform: scale(1.025);
 }
 
 .bg-2 { 
@@ -46,17 +47,10 @@ footer {
 }
 
 .bg-2:hover {
-    box-shadow: 4px 10px 24px #888888;
+    box-shadow: 6px 15px 36px #888888;
+    transform: scale(1.005);
 }
 
-.bg-3 { 
-    background-color: #ffffff; 
-    color: #00264d;
-}
-.bg-4 { 
-    background-color: #2f2f2f; 
-    color: #ffffff;
-}
 
 
 
@@ -70,9 +64,12 @@ a:link {
 
   .hover-lightup {
     transition: 1s;
+    -webkit-transition: 1s;
 }
 .hover-lightup:hover {
     color: #66ffff;
+    filter: drop-shadow(5px 5px 2px rgba(0,0,0,0.3));
+    transform: scale(1.05);
 }
 
 a{
@@ -86,4 +83,16 @@ a:hover {
     50% { transform: scale(0.9)}
     100% { transform: scale(1)}
    }
+
+.img-responsive{
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.img-responsive:hover{
+    filter: drop-shadow(10px 10px 2.5px rgba(0,0,0,0.3));
+    transform: scale(1.05);
+}
+
 

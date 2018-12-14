@@ -4280,7 +4280,9 @@ html {
     padding: 15px 15px;
     font-size: 32px;
     line-height: 20px;
+    animation: navbar-brand-pulse 2s infinite;
   }
+
   .navbar-brand:hover,
   .navbar-brand:focus {
     text-decoration: none;

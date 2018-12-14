@@ -28,13 +28,27 @@ footer {
     border-radius: 15px;
     box-shadow: 2px 5px 12px #888888;
     color: #ffffff;
+    transition: 1s;
+    -webkit-transition: 1s;
 }
+
+.bg-1:hover {
+    box-shadow: 4px 10px 24px #888888;
+}
+
 .bg-2 { 
     background-color: #ffffff; 
     border-radius: 15px;
     box-shadow: 2px 5px 12px #888888;
     color: #00264d;
+    transition: 1s;
+    -webkit-transition: 1s;
 }
+
+.bg-2:hover {
+    box-shadow: 4px 10px 24px #888888;
+}
+
 .bg-3 { 
     background-color: #ffffff; 
     color: #00264d;
@@ -44,9 +58,7 @@ footer {
     color: #ffffff;
 }
 
-.hover-lightup:hover {
-    color: #66ffff;
-}
+
 
 a:link {
     text-decoration: none;
@@ -56,6 +68,22 @@ a:link {
     text-decoration: none;
   }
 
+  .hover-lightup {
+    transition: 1s;
+}
+.hover-lightup:hover {
+    color: #66ffff;
+}
+
+a{
+    transition: 1s;
+}
 a:hover {
     color: #66ffff;
 }
+
+@keyframes navbar-brand-pulse {
+    50% { transform: scale(0.9)}
+    100% { transform: scale(1)}
+   }
+

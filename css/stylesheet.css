@@ -34,7 +34,7 @@ footer {
 
 .bg-1:hover {
     box-shadow: 6px 15px 36px #888888;
-    transform: scale(1.025);
+    transform: scale(1.01);
 }
 
 .bg-2 { 
@@ -48,7 +48,7 @@ footer {
 
 .bg-2:hover {
     box-shadow: 6px 15px 36px #888888;
-    transform: scale(1.005);
+    transform: scale(1.01);
 }
 
 

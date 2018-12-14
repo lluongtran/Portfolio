@@ -165,9 +165,9 @@ a:hover {
   
   /*=== Optional Delays, change values here  ===*/
   .one {
-  -webkit-animation-delay: 0.4s;
-  -moz-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
   }
   
   .two {
@@ -177,16 +177,29 @@ a:hover {
   }
   
   .three {
-  -webkit-animation-delay: 2.3s;
-  -moz-animation-delay: 2.3s;
-  animation-delay: 2.3s;
+  -webkit-animation-delay: 2.7s;
+  -moz-animation-delay: 2.7s;
+  animation-delay: 2.7s;
   }
   
   .four {
-  -webkit-animation-delay: 3.3s;
-  -moz-animation-delay: 3.3s;
-  animation-delay: 3.3s;
+  -webkit-animation-delay: 3.7s;
+  -moz-animation-delay: 3.7s;
+  animation-delay: 3.7s;
   }
+
+  .five {
+    -webkit-animation-delay: 4.7s;
+    -moz-animation-delay: 4.7s;
+    animation-delay: 4.7s;
+    }
+
+  .six {
+      -webkit-animation-delay: 5.7s;
+      -moz-animation-delay: 5.7s;
+      animation-delay: 5.7s;
+    }
+
   
   /*=== Animations start here  ===*/
   /*=== FADE IN  ===*/

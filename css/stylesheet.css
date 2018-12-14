@@ -54,6 +54,7 @@ footer {
 
 
 
+
 a:link {
     text-decoration: none;
   }
@@ -361,4 +362,18 @@ a:hover {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
   }
+
+
+
+
+/* HIDDEN GHOST */
+  .hover-hiddenghost {
+    transition: 5s;
+    -webkit-transition: 5s;
+  }
+  .hover-hiddenghost:hover {
+    filter: drop-shadow(50px 50px 50px rgba(0,0,0,0.3));
+    transform: translate3d(-1000px,-1000px,0px);
+  }
+/* END OF HIDDEN GHOST */
   

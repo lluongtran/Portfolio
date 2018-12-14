@@ -78,7 +78,7 @@ a{
 }
 a:hover {
     color: #66ffff;
-    transform: scale(1.25);
+    transform: scale(1.4);
 }
 
 @keyframes navbar-brand-pulse {

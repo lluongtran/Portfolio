@@ -362,6 +362,145 @@ a:hover {
   }
 
 
+   /*==== FADE FROM TOP RIGHT ===*/
+   @-webkit-keyframes fadeInTopRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(50%, -50%, 0);
+      transform: translate3d(50%, -50%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes fadeInTopRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(50%, -50%, 0);
+      transform: translate3d(50%, -50%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  .fadeInTopRight {
+    -webkit-animation-name: fadeInTopRight;
+    animation-name: fadeInTopRight;
+  }
+
+
+    /*==== FADE FROM BOTTOM RIGHT ===*/
+    @-webkit-keyframes fadeInBottomRight {
+      from {
+        opacity: 0;
+        -webkit-transform: translate3d(50%, 50%, 0);
+        transform: translate3d(50%, 50%, 0);
+      }
+    
+      to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+    @keyframes fadeInBottomRight {
+      from {
+        opacity: 0;
+        -webkit-transform: translate3d(50%, 50%, 0);
+        transform: translate3d(50%, 50%, 0);
+      }
+    
+      to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+    
+    .fadeInBottomRight {
+      -webkit-animation-name: fadeInBottomRight;
+      animation-name: fadeInBottomRight;
+    }
+
+
+
+      /*=== FADE IN TOP LEFT ===*/
+  @-webkit-keyframes fadeInTopLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-50%, -50%, 0);
+      transform: translate3d(-50%, -50%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes fadeInTopLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-50%, -50%, 0);
+      transform: translate3d(-50%, -50%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
+  .fadeInTopLeft {
+    -webkit-animation-name: fadeInTopLeft;
+    animation-name: fadeInTopLeft;
+  }
+
+
+
+
+      /*=== FADE IN Bottom LEFT ===*/
+  @-webkit-keyframes fadeInBottomLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-50%, 50%, 0);
+      transform: translate3d(-50%, 50%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes fadeInBottomLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-50%, 50%, 0);
+      transform: translate3d(-50%, 50%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
+  .fadeInBottomLeft {
+    -webkit-animation-name: fadeInBottomLeft;
+    animation-name: fadeInBottomLeft;
+  }
+
+
 
 
 /* HIDDEN GHOST */

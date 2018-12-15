@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -32,7 +32,7 @@ footer {
 
 .bg-1:hover {
     box-shadow: 6px 15px 36px #888888;
-    transform: scale(1.01);
+    transform: scale(1.005);
 }
 
 .bg-2 { 
@@ -46,7 +46,7 @@ footer {
 
 .bg-2:hover {
     box-shadow: 6px 15px 36px #888888;
-    transform: scale(1.01);
+    transform: scale(1.005);
 }
 
 
@@ -76,7 +76,7 @@ a{
 }
 a:hover {
     color: #66ffff;
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 
 @keyframes navbar-brand-pulse {
@@ -92,7 +92,7 @@ a:hover {
 
 .img-responsive:hover{
     filter: drop-shadow(10px 10px 2.5px rgba(0,0,0,0.3));
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /*fade-in css*/
@@ -509,6 +509,7 @@ a:hover {
     -webkit-transition: 5s;
   }
   .hover-hiddenghost:hover {
+    color: #ffffff;
     filter: drop-shadow(50px 50px 50px rgba(0,0,0,0.3));
     transform: translate3d(-1000px,-1000px,0);
   }

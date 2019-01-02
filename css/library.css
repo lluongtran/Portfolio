@@ -4279,7 +4279,7 @@ html {
     height: 50px;
     padding: 15px 15px;
     font-size: 32px;
-    line-height: 20px;
+    line-height: 15px;
     animation: navbar-brand-pulse 2s infinite;
   }
 
@@ -4498,8 +4498,8 @@ html {
     }
   }
   .navbar-default {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
+    background-color: #ffffff;
+    border-color: #ffffff;
   }
   .navbar-default .navbar-brand {
     color: #777;
@@ -4594,12 +4594,11 @@ html {
     color: #ccc;
   }
   .navbar-inverse {
-    /*background-color: #222;*/
-    background-color: #001a33;
-    border-color: #080808;
+    background-color: #222;
+    border-color: none;
   }
   .navbar-inverse .navbar-brand {
-    color: #ffffff;
+    color: #00264d;
   }
   .navbar-inverse .navbar-brand:hover,
   .navbar-inverse .navbar-brand:focus {
@@ -4607,10 +4606,10 @@ html {
     background-color: transparent;
   }
   .navbar-inverse .navbar-text {
-    color: #ffffff;
+     color: #ffffff;
   }
   .navbar-inverse .navbar-nav > li > a {
-    color: #ffffff;
+     color: #ffffff;
   }
   .navbar-inverse .navbar-nav > li > a:hover,
   .navbar-inverse .navbar-nav > li > a:focus {
@@ -4626,28 +4625,28 @@ html {
   .navbar-inverse .navbar-nav > .disabled > a,
   .navbar-inverse .navbar-nav > .disabled > a:hover,
   .navbar-inverse .navbar-nav > .disabled > a:focus {
-    color: #ffffff;
-    background-color: transparent;
+    color: #00264d;
+    background-color: #00264d;
   }
   .navbar-inverse .navbar-toggle {
-    border-color: #333;
+    border-color: #00264d;
   }
   .navbar-inverse .navbar-toggle:hover,
   .navbar-inverse .navbar-toggle:focus {
     background-color: #66ffff;
   }
   .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #00264d;
   }
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
-    border-color: #101010;
+    border-color: #00264d;
   }
   .navbar-inverse .navbar-nav > .open > a,
   .navbar-inverse .navbar-nav > .open > a:hover,
   .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #fff;
-    background-color: #080808;
+    color: #ffffff;
+    background-color: #00264d;
   }
   @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {

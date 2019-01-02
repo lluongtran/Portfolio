@@ -34,7 +34,6 @@
 
 
   <!-- Navigation -->
-  <br>
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -43,11 +42,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><b>LT</b></a>
+        <a class="navbar-brand" href="index.html"><b>Lamont Tran<br>
+          <span style="font-size: 14px;"> 
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+            UX Developer
+          </span></b></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html" style="color:#66ffff; font-weight: bold;">Projects</a></li>
+          <li><a href="index.html" class="navbar-current-page">Projects</a></li>
           <li><a href="designs.html">Designs</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="resume.html">Resume</a></li>
@@ -58,8 +63,9 @@
   </nav>
 
 
-
   <!-- Page Content -->
+  
+  
   <br>
   <div class="animate fadeInLeft one">
     <a href="about.html">
@@ -71,60 +77,119 @@
       </div>
     </a>
   </div>
+  
 
 
   <div class="animate fadeInDown">
-    <div class="container-fluid bg-2 text-center">
-      <h3>Some of my Work</h3>
+    <div class="container-fluid bg-2 text-center" style="margin-top:0px">
+      <h2>Some of my Work</h2>
+
       <div class="row">
-        <div class="col-sm-4">
-          <a href="underconstruction.html">
-            <div class="animate fadeInLeft one">
-              <img src="img/squirrl-mockup.png" class="img-responsive" alt="Image">
+        <div class="col-sm-6">
+          <a href="squirrl.html">
+            <div class="animate fadeInTopLeft one">
+              <div class="project-container">
+                <img class="img-responsive background-squirrl" src="img/squirrl-mockup.png" alt="Image">
+                <!--Image Size is 150x80-->
+                <div class="squirrl-overlay">
+                  <div class="project-description">
+                    <p>
+                      <h2>Squirrl</h2>
+                      Role: UX Designer<br>
+                      An AI financial advisor app.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!--Image Size is 150x80-->
           </a>
-          <p>Squirrl</p>
         </div>
-        <div class="col-sm-4">
+
+
+        <div class="col-sm-6">
           <a href="underconstruction.html">
-            <div class="animate fadeInLeft two">
-              <img src="img/nolimits-mockup.png" class="img-responsive" alt="Image">
+            <div class="animate fadeInTopRight one">
+              <div class="project-container">
+                <img src="img/nolimits-mockup.png" class="img-responsive background-nolimits" alt="Image">
+                <div class="nolimits-overlay">
+                  <div class="project-description">
+                    <p>
+                      <h2>No Limits</h2>
+                      Role: UX Designer<br>
+                      A non-profit for deaf children.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </a>
-          <p>No Limits</p>
-        </div>
-        <div class="col-sm-4">
-          <a href="underconstruction.html">
-            <div class="animate fadeInLeft three">
-              <img src="img/vos-mockup.png" class="img-responsive" alt="Image">
-            </div>
-          </a>
-          <p>Vos</p>
         </div>
       </div>
-      <br>
+
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6">
+          <a href="underconstruction.html">
+            <div class="animate fadeInBottomLeft one">
+              <div class="project-container">
+                <img src="img/vos-mockup.png" class="img-responsive background-vos" alt="Image">
+                <div class="vos-overlay">
+                  <div class="project-description">
+                    <p>
+                      <h2>Vos</h2>
+                      Role: UX Designer<br>
+                      A lifestyle app.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm-6">
+          <a href="underconstruction.html">
+            <div class="animate fadeInBottomRight one">
+              <div class="project-container">
+                <img src="img/pinagraph-mockup.png" class="img-responsive background-pinagraph" alt="Image">
+                <div class="pinagraph-overlay">
+                  <div class="project-description">
+                    <p>
+                      <h2>Pinagraph</h2>
+                      Role: UX Developer<br>
+                      A geolocation social network.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
           <a href="underconstruction.html">
             <div class="animate fadeInLeft one">
-              <img src="img/pinagraph-mockup.png" class="img-responsive" alt="Image">
+              <div class="project-container">
+                <img src="img/ntt-mockup.png" class="img-responsive background-ntt" alt="Image">
+                <div class="ntt-overlay">
+                  <div class="project-description">
+                    <p>
+                      <h2>NTT Communcation</h2>
+                      Role: UX Designer<br>
+                      Global network quoting system.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </a>
-          <p>Pinagraph</p>
-        </div>
-        <div class="col-sm-4">
-          <a href="underconstruction.html">
-            <div class="animate fadeInLeft two">
-              <img src="img/ntt-mockup.png" class="img-responsive" alt="Image">
-            </div>
-          </a>
-          <p>NTT Communications</p>
           <br>
           <br>
         </div>
       </div>
     </div>
+
   </div>
   <br>
   <br>
@@ -134,29 +199,29 @@
 </body>
 
 <footer class="container-fluid text-center">
-    <p>
-      <a href="mailto:LLUONGTRAN@ALUMNI.UCSD.EDU">
-        <span style="font-size: 24px; color:#00264d;;">
-          <i class="fas fa-envelope-square hover-lightup animate fadeInUp two"></i>
-        </span>
-      </a>
-      <a href="https://www.linkedin.com/in/lamont-tran-00044252/">
-        <span style="font-size: 24px; color:#00264d;;">
-          <i class="fab fa-linkedin hover-lightup animate fadeInDown two"></i>
-        </span>
-      </a>
-      <a href="https://dribbble.com/lluongtran">
-        <span style="font-size: 24px; color:#00264d;;">
-          <i class="fab fa-dribbble-square hover-lightup animate fadeInUp three"></i>
-        </span>
-      </a>
-      <a href="https://github.com/lluongtran">
-        <span style="font-size: 24px; color:#00264d;;">
-          <i class="fab fa-github-square hover-lightup animate fadeInDown three"></i>
-        </span>
-      </a>
-    </p>
-  </footer>
+  <p>
+    <a href="mailto:LLUONGTRAN@ALUMNI.UCSD.EDU">
+      <span style="font-size: 24px; color:#00264d;;">
+        <i class="fas fa-envelope-square hover-lightup animate fadeInUp two"></i>
+      </span>
+    </a>
+    <a href="https://www.linkedin.com/in/lamont-tran-00044252/">
+      <span style="font-size: 24px; color:#00264d;;">
+        <i class="fab fa-linkedin hover-lightup animate fadeInDown two"></i>
+      </span>
+    </a>
+    <a href="https://dribbble.com/lluongtran">
+      <span style="font-size: 24px; color:#00264d;;">
+        <i class="fab fa-dribbble-square hover-lightup animate fadeInUp three"></i>
+      </span>
+    </a>
+    <a href="https://github.com/lluongtran">
+      <span style="font-size: 24px; color:#00264d;;">
+        <i class="fab fa-github-square hover-lightup animate fadeInDown three"></i>
+      </span>
+    </a>
+  </p>
+</footer>
 
 
 </html>

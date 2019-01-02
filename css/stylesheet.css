@@ -1,70 +1,75 @@
 body {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
-     
+.navbar-inverse {
+  background-color: #ffffff;
+  border-color: none;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    box-shadow: 2px 2px 2px #000000;
 }
-    
+
+
+@keyframes navbar-brand-pulse {
+  50% { transform: scale(0.95)}
+  100% { transform: scale(1)}
+ }
+
+
+ .navbar-inverse .navbar-text {
+  color: #00264d;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #00264d;
+}
+
+ .navbar-current-page {
+  font-weight: bold;
+  animation: navbar-current-page-pulse 2s infinite;
+}
+
+@keyframes navbar-current-page-pulse {
+  50% { transform: scale(0.95)}
+  100% { transform: scale(1)}
+ }
    
 footer {
-    color: #00264d;
+    color: #001a33;
     padding: 0px;
 }
 
-
-
-.bg-1 { 
-    background-image: linear-gradient(to bottom right, #001a33, #00264d,#006699, #1ac6ff); 
-    border-radius: 5px;
-    box-shadow: 2px 5px 12px #888888;
-    color: #ffffff;
-    transition: 1s;
-    -webkit-transition: 1s;
+.img-responsive{
+  border-radius: 5px;
+  filter: drop-shadow(1px 2.5px 5px #888888);
+  transition: 1s;
+  -webkit-transition: 1s;
 }
 
-.bg-1:hover {
-    box-shadow: 6px 15px 36px #888888;
-    transform: scale(1.005);
+.img-responsive:hover{
+  filter: drop-shadow(2px 5px 10px #888888);
+  transform: scale(1.05);
 }
-
-.bg-2 { 
-    background-color: #ffffff; 
-    border-radius: 5px;
-    box-shadow: 2px 5px 12px #888888;
-    color: #00264d;
-    transition: 1s;
-    -webkit-transition: 1s;
-}
-
-.bg-2:hover {
-    box-shadow: 6px 15px 36px #888888;
-    transform: scale(1.005);
-}
-
-
-
-
 
 a:link {
     text-decoration: none;
   }
   
-  a:visited {
+a:visited {
     text-decoration: none;
   }
 
-  .hover-lightup {
+.hover-lightup {
     transition: 1s;
     -webkit-transition: 1s;
-}
+  }
+
 .hover-lightup:hover {
     color: #66ffff;
     filter: drop-shadow(5px 5px 2px rgba(0,0,0,0.3));
@@ -79,23 +84,129 @@ a:hover {
     transform: scale(1.2);
 }
 
-@keyframes navbar-brand-pulse {
-    50% { transform: scale(0.9)}
-    100% { transform: scale(1)}
-   }
-
-.img-responsive{
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
-    transition: 1s;
-    -webkit-transition: 1s;
+/* BACKGROUND COLOR */
+.bg-1 { 
+  background-image: linear-gradient(to bottom right, #001a33, #00264d,#006699, #1ac6ff); 
+  border-radius: 5px;
+  box-shadow: 1px 2.5px 5px #888888;
+  color: #ffffff;
+  transition: 1s;
+  -webkit-transition: 1s;
 }
 
-.img-responsive:hover{
-    filter: drop-shadow(10px 10px 2.5px rgba(0,0,0,0.3));
-    transform: scale(1.05);
+.bg-1:hover {
+  box-shadow: 2px 5px 10px #888888;
+  transform: scale(1.0025);
 }
 
-/*fade-in css*/
+.bg-2 { 
+  background-color: #ffffff; 
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 2.5px 5px #888888;
+  color: #00264d;
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+
+.bg-2:hover {
+  box-shadow: 2px 5px 10px #888888;
+  transform: scale(1.005);
+}
+/* END OF BACKGROUND COLOR */
+
+/*PROJECT BACKGROUND COLOR*/
+.background-squirrl{
+  background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );
+}
+
+.background-nolimits{
+  background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );
+}
+
+.background-vos{
+  background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );
+}
+
+.background-pinagraph{
+  background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );
+}
+
+.background-ntt{
+  background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
+}
+/*END OF PROJECT BACKGROUND COLOR*/
+
+
+/*PROJECT OVERLAY CODE*/
+.project-container {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.project-description {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.squirrl-overlay,
+.nolimits-overlay,
+.vos-overlay,
+.pinagraph-overlay,
+.ntt-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+
+.squirrl-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );
+  border-radius: 5px;
+}
+
+.nolimits-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );
+  border-radius: 5px;
+}
+
+.vos-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );
+  border-radius: 5px;
+}
+
+.pinagraph-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );
+  border-radius: 5px;
+}
+
+.ntt-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
+  border-radius: 5px;
+}
+/*END OF PROJECT OVERLAY CODE*/
+
+
+/*SPLASH SCREEN FADE-IN CODE*/
 
 .fade-in {
     animation: fadeIn ease 2.5s;
@@ -150,12 +261,11 @@ a:hover {
     }
   }
 
-/*end of ade-in css*/
+/*END OF SPLASH SCREEN FADE-IN CODE*/
 
 
 
-
-
+/* OBJECT FADE-IN ANIMATION */
 .animate {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -163,7 +273,7 @@ a:hover {
     animation-fill-mode: both;
   }
   
-  /*=== Optional Delays, change values here  ===*/
+  /*=== DELAY CODE  ===*/
   .one {
   -webkit-animation-delay: 0.7s;
   -moz-animation-delay: 0.7s;
@@ -327,7 +437,6 @@ a:hover {
     animation-name: fadeInLeft;
   }
   
-  
   /*==== FADE IN RIGHT ===*/
   @-webkit-keyframes fadeInRight {
     from {
@@ -360,7 +469,6 @@ a:hover {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
   }
-
 
    /*==== FADE FROM TOP RIGHT ===*/
    @-webkit-keyframes fadeInTopRight {
@@ -395,7 +503,6 @@ a:hover {
     animation-name: fadeInTopRight;
   }
 
-
     /*==== FADE FROM BOTTOM RIGHT ===*/
     @-webkit-keyframes fadeInBottomRight {
       from {
@@ -428,8 +535,6 @@ a:hover {
       -webkit-animation-name: fadeInBottomRight;
       animation-name: fadeInBottomRight;
     }
-
-
 
       /*=== FADE IN TOP LEFT ===*/
   @-webkit-keyframes fadeInTopLeft {
@@ -499,9 +604,7 @@ a:hover {
     -webkit-animation-name: fadeInBottomLeft;
     animation-name: fadeInBottomLeft;
   }
-
-
-
+/* END OF OBJECT FADE-IN ANIMATION */
 
 /* HIDDEN GHOST */
   .hover-hiddenghost {
@@ -511,7 +614,7 @@ a:hover {
   .hover-hiddenghost:hover {
     color: #ffffff;
     filter: drop-shadow(50px 50px 50px rgba(0,0,0,0.3));
-    transform: translate3d(-1000px,-1000px,0);
+    transform: translate3d(-1000px,-1000px,0)
   }
 /* END OF HIDDEN GHOST */
   

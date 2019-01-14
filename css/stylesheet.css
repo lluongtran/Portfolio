@@ -39,14 +39,35 @@ body {
   50% { transform: scale(0.95)}
   100% { transform: scale(1)}
  }
-   
+
+
+
+@media only screen and (min-width: 768px) {
+  .container-fluid {
+    margin-left:10px; 
+    margin-right:10px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    margin-left:50px; 
+    margin-right:50px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container-fluid {
+    margin-left:80px; 
+    margin-right:80px;
+  }
+}
+
 footer {
     color: #001a33;
     padding: 0px;
 }
 
 .img-responsive{
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   filter: drop-shadow(1px 2.5px 5px #888888);
   transition: 1s;
   -webkit-transition: 1s;
@@ -84,6 +105,20 @@ a:hover {
     transform: scale(1.2);
 }
 
+.jumbotron {
+  color: #00264d;
+  background-color: pink;
+  padding-top: 10px;
+  padding-bottom: -20px;
+}
+
+.banner {
+  margin-top: 10px;
+}
+
+.indigo-text {
+  color: #00264d;
+}
 /* BACKGROUND COLOR */
 .bg-1 { 
   background-image: linear-gradient(to bottom right, #001a33, #00264d,#006699, #1ac6ff); 
@@ -99,18 +134,16 @@ a:hover {
   transform: scale(1.0025);
 }
 
-.bg-2 { 
+.paper-background { 
   background-color: #ffffff; 
-  margin-left: 5px;
-  margin-right: 5px;
-  border-radius: 5px;
+  border-radius: 2px;
   box-shadow: 1px 2.5px 5px #888888;
   color: #00264d;
   transition: 1s;
   -webkit-transition: 1s;
 }
 
-.bg-2:hover {
+.paper-background:hover {
   box-shadow: 2px 5px 10px #888888;
   transform: scale(1.005);
 }
@@ -118,23 +151,28 @@ a:hover {
 
 /*PROJECT BACKGROUND COLOR*/
 .background-squirrl{
-  background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );
+  /*background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );*/
+  background-image: linear-gradient(to bottom right,#6E15B2, #9205FF );
 }
 
 .background-nolimits{
-  background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );
+  /*background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );*/
+  background-image: linear-gradient(to bottom right,#FF8C42, #ffa46c );
 }
 
 .background-vos{
-  background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );
+  /*background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );*/
+  background-image: linear-gradient(to bottom right,#538bcc,#b1d6ff );
 }
 
 .background-pinagraph{
-  background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );
+  /*background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );*/
+  background-image: linear-gradient(to bottom right,#01A9DB, #66ffff );
 }
 
 .background-ntt{
-  background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
+  /*background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );*/
+  background-image: linear-gradient(to bottom right,#063058, #10528f );
 }
 /*END OF PROJECT BACKGROUND COLOR*/
 
@@ -170,38 +208,38 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 1s;
-  -webkit-transition: 1s;
+  transition: .5s;
+  -webkit-transition: .5s;
 }
 
 .squirrl-overlay:hover {
-  opacity: .90;
-  background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );
-  border-radius: 5px;
+  background-color:#000000;opacity:0.85;
+  /*background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );*/
+  /*border-radius: 5px;*/
 }
 
 .nolimits-overlay:hover {
-  opacity: .90;
-  background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );
-  border-radius: 5px;
+  background-color:#000000;opacity:0.85;
+  /*background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );*/
+  /*border-radius: 5px;*/
 }
 
 .vos-overlay:hover {
-  opacity: .90;
-  background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );
-  border-radius: 5px;
+  background-color:#000000;opacity:0.85;
+  /*background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#bbdbff );*/
+  /*border-radius: 5px;*/
 }
 
 .pinagraph-overlay:hover {
-  opacity: .90;
-  background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );
-  border-radius: 5px;
+  background-color:#000000;opacity:0.85;
+  /*background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );*/
+  /*border-radius: 5px;*/
 }
 
 .ntt-overlay:hover {
-  opacity: .90;
-  background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
-  border-radius: 5px;
+  background-color:#000000;opacity:0.85;
+  /*background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );*/
+  /*border-radius: 5px;*/
 }
 /*END OF PROJECT OVERLAY CODE*/
 

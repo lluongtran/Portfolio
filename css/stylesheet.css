@@ -135,7 +135,9 @@ a:hover {
 }
 
 .paper-background { 
-  background-color: #ffffff; 
+  background-color: #ffffff;
+  padding-left: 60px;
+  padding-right: 60px; 
   border-radius: 2px;
   box-shadow: 1px 2.5px 5px #888888;
   color: #00264d;

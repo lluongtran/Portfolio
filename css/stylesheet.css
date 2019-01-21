@@ -145,10 +145,13 @@ a:hover {
   -webkit-transition: 1s;
 }
 
+/*
 .paper-background:hover {
   box-shadow: 2px 5px 10px #888888;
   transform: scale(1.005);
 }
+*/
+
 /* END OF BACKGROUND COLOR */
 
 /*PROJECT BACKGROUND COLOR*/

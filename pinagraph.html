@@ -74,19 +74,206 @@
           <h2><u>Overview</u></h2>
         </font>
         <p>
-            Under construction.<br>
+          Pinagraph is a geolocation social media app that I designed and programmed in 2014 before I knew what UX
+          design was. The app centered around a map that allowed users to spontaneously tag meetups, tag what they are
+          up to, and geotag photos they took on the phone.<br>
           <br>
-          <b>Role:</b> Developer and UX/UI Designer<br>
+          My first step was doing research on solving the user problem that is causing gen Z and younger millennials to
+          migrate away from social media giant, Facebook. Afterwards, I sketched up some desktop and mobile prototype.
+          Then for the rest of 2014 I studied PHP, HTML, CSS, Javascript, Jquery, and SQL. By 2015, I started coding
+          the desktop version and since I also worked full-time, I spent nearly every night coding from 9am-1am. In the
+          end what I had was a functional social network on desktop. Users could sign-up, add friends, post photos,
+          geotag photos, send messages, ect.<br>
           <br>
-          <b>Tools:</b> Paper + Pen, PHP, HTML, CSS, Javascript, Jquery, & SQL
+          <b>Role:</b> UX/UI Designer and Front + Back-end Developer<br>
+          <br>
+          <b>Tools:</b> Paper + Pen, Sketch, PHP, HTML, CSS, Javascript, Jquery, & SQL
+        </p>
+        <br>
+
+        <font color="#ff9900">
+          <h2><u>Discover: 2014</u></h2>
+        </font>
+        <h3>Research</h3>
+        <p>
+          From my research, it was found that younger generations (specifically gen Z) are moving away from social
+          media giant Facebook and looking to mobile-based social media like Instagram and Snapchat. The cause of such
+          a movement was that gen z valued more privacy, more intimate circle of friends, prefer to interface with
+          contents that were more relevant to them, and preserving their individuality.<br>
+          <br>
+          Facebook on the other hand focused on expanding your network as much as possible and bombarded the user’s
+          news feeds with viral videos, news, fake news, and advertisements. However, in the early days Facebook
+          exploded in popularity because it was an exclusive social media for college students with a .edu email. News
+          feeds were almost all contents that friends made;which are far more relevant to the users. This was one of
+          the major formulas that replaced Myspace.<br>
+          <br>
+          Here is the list of some of the articles,<br>
+          <a href="http://time.com/3641760/teens-leaving-facebook/"><u>Time</u></a><br>
+          <a href="https://www.washingtonpost.com/news/the-intersect/wp/2015/02/21/why-teens-are-leaving-facebook-its-meaningless/?utm_term=.a17bef127066"><u>Washington
+              Post</u></a><br>
+          <a href="https://abcnews.go.com/Technology/teens-leaving-facebook/story?id=20739310"><u>ABC News</u></a><br>
+          <a href="https://www.cnn.com/2013/05/22/tech/social-media/pew-teens-facebook/index.html"><u>CNN</u></a><br>
+          <a href="https://www.cnet.com/news/why-teens-are-tiring-of-facebook/"><u>CNET</u></a><br>
+          <a href="https://www.nbcnews.com/video/study-teens-leaving-facebook-as-parents-flood-site-102082627805"><u>NBC
+              News</u></a><br>
+        </p>
+        <br>
+
+        <font color="#ff9900">
+          <h2><u>Define: 2014</u></h2>
+        </font>
+        <h3>User Persona</h3>
+        <p>
+          After completing my research, I identified my target group.<br>
+          <br>
+          <b>Ages:</b> 15-23<br>
+          <b>Education:</b> High School to College Students<br>
+          <b>Goals:</b> Likes to know what interesting thing their friends are up to, sharing their life, hanging out
+          with friends, and doing spontaneous activities together<br>
+          <b>Concerns:</b> Wants privacy from older generations and prefer to have social network with only individuals
+          in their generation.<br>
+          <b>Device:</b> Prefers mobile over desktop applications<br>
+        </p>
+        <br>
+
+        <font color="#ff9900">
+          <h2><u>Develop: 2014</u></h2>
+        </font>
+        <h3>Paper Prototype</h3>
+        <p>
+          These are some of the early paper prototypes from 2014.<br>
+          <br>
+          <img src="img/pinagraph/paper-prototype1.jpg" class="img" width="50%" height="50%"><br>
+          <b>Mobile Paper-Prototype</b><br>
+          <br>
+          <img src="img/pinagraph/paper-prototype2.jpg" class="img" width="50%" height="50%"><br>
+          <b>Mobile Paper-Prototype</b><br>
+          <br>
+          <img src="img/pinagraph/paper-prototype-desktop1.jpg" class="img" width="50%" height="50%"><br>
+          <b>Desktop Paper-Prototype</b><br>
         </p>
 
         <font color="#ff9900">
-          <h2><u>Problem</u></h2>
+          <h2><u>Deliver: 2015</u></h2>
         </font>
+        <h3>Desktop Application</h3>
         <p>
-            Under construction.<br>
+          The desktop application is built on PHP, HTML, CSS, Javascript, Jquery, and used MySQL for the database. For
+          the geolocation application, I used the Mapbox’s API. For security, I hashed everything from passwords, to
+          user IDs, and photos.
         </p>
+        <br>
+
+        <h3>Index Page: Signup</h3>
+        <p>
+          For the sign-up, the code (exhibit 1) starts with executing the header.php. The code then ran a session
+          function to check to see if the user was logged in. If the user was logged in, they would be forwarded to the
+          home page; otherwise they would be prompted to sign in or to create an account.<br>
+          <br>
+          For the signup, I coded the form using html (exhibit 2). After clicking the “Sign Up”, all of the user’s
+          inputs get sent to the php’s post function (exhibit 1 row 10). I then programmed several lines of php codes
+          that did a sanitary check to ensure that the user was not injecting malicious codes and to also check for
+          errors. If everything was okay, all the inputs the user entered will be converted into a variable and then
+          sent to the SQL database for registering the user.<br>
+          <br>
+          <img src="img/pinagraph/screenshots/01.png" class="img" width="50%" height="50%"><br>
+          <br>
+          <img src="img/pinagraph/screenshots/01-code1.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 1</b><br>
+          <br>
+          <img src="img/pinagraph/screenshots/01-code2.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 2</b><br>
+        </p>
+        <br>
+
+        <h3>Index Page: Login</h3>
+        <p>
+          For the login, a created a simple HTML form (exhibit 3) that allowed the user to input their email, password,
+          and click the “Login” button. Once the “Login” button was clicked, the PHP script does a sanitary check to
+          prevent any malicious code and then executes a query to the SQL database to see if there was a match between
+          the email and password (exhibit 4 row 101). If there was a match, the user gets logged into their home page.<br>
+          <br>
+          <img src="img/pinagraph/screenshots/02.png" class="img" width="50%" height="50%"><br>
+          <br>
+          <img src="img/pinagraph/screenshots/02-code1.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 3</b><br>
+          <br>
+          <img src="img/pinagraph/screenshots/02-code2.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 4</b><br>
+        </p>
+        <br>
+
+
+        <h3>Home Page</h3>
+        <p>
+          Once the user was logged in, my home page started with declaring variables for the user’s friends. Then I ran
+          a script to check to see if the user had any friends in the SQL database. For the user’s friend list, I
+          created an array called “friend_array”. If the script found the array, it would then execute a lengthy if
+          statement that separates the “friend_array” into variables and then give it a key (exhibit 5 row 34). Then
+          for each friend that the script extracts from the database, I ran a foreach function that also retrieved the
+          friend’s latest post to provide the news feed (exhibit 6 row 95).<br>
+          <br>
+          <img src="img/pinagraph/screenshots/03.png" class="img" width="50%" height="50%"><br>
+          <br>
+          <img src="img/pinagraph/screenshots/03-code1.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 5</b><br>
+          <br>
+          <img src="img/pinagraph/screenshots/03-code2.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 6</b><br>
+        </p>
+        <br>
+
+        <h3>Profile Page</h3>
+        <p>
+          For the profile page, I started off very similar to the home page by declaring all the variables at the top
+          and then running a lengthy if statement to gather all the user’s friend list and posts. Afterwards, I have a
+          JavaScript code that allows me to connect to the custom map that I created on Mapbox (exhibit 7 row 191).<br>
+          <br>
+          <img src="img/pinagraph/screenshots/04.png" class="img" width="50%" height="50%"><br>
+          <br>
+          <img src="img/pinagraph/screenshots/04-code1.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 7</b><br>
+        </p>
+        <br>
+
+        <h3>Album Page</h3>
+        <p>
+          The album page also starts off similar to the home and profile page by declaring variables and then running a
+          long if and foreach statement to pull all of the user’s photos and photo albums. Afterwards I added in a tool
+          for users to upload their photos and then plot them on the map.<br>
+          <br>
+          For the photo upload code, I started off with checking to see if the file type being uploaded met the file
+          type and size restriction (exhibit 8 row 211). Afterwards, I renamed the image using a hash, sent the photo
+          into the directory, and then recorded the directory of the photo into the SQL database. The reason each photo
+          was renamed and hashed was to enforce user privacy by preventing people from guessing where these image files
+          were.<br>
+          <br>
+          To extract the geolocation from the photo, I first ran an “exif_read_data” script to read the metadata file
+          (exhibit 9 row 236). If the metadata was found, I then ran a lengthy if statement to convert the information
+          into coordinates that Mapbox could understand. Finally, for plotting the photo on to the map, I used JSON
+          that Mapbox provided and used their markers (exhibit 10 row 123).<br>
+          <img src="img/pinagraph/screenshots/05.png" class="img" width="50%" height="50%"><br>
+          <br>
+          <img src="img/pinagraph/screenshots/05-code1.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 8</b><br>
+          <br>
+          <img src="img/pinagraph/screenshots/05-code2.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 9</b><br>
+          <br>
+          <img src="img/pinagraph/screenshots/05-code3.png" class="img" width="50%" height="50%"><br>
+          <b>Exhibit 10</b><br>
+        </p>
+        <br>
+
+        <font color="#ff9900">
+          <h2><u>Re-design: 2018-Present</u></h2>
+        </font>
+        <h3>Mobile High Fidelity Prototype</h3>
+        <p>
+          Coming soon.
+        </p>
+
+
       </div>
     </div>
   </div>

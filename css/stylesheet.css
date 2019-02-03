@@ -17,10 +17,10 @@ body {
 }
 
 
-@keyframes navbar-brand-pulse {
+/*@keyframes navbar-brand-pulse {
   50% { transform: scale(0.95)}
   100% { transform: scale(1)}
- }
+ }*/
 
 
  .navbar-inverse .navbar-text {
@@ -32,13 +32,15 @@ body {
 
  .navbar-current-page {
   font-weight: bold;
+  /*border-bottom: 1px solid #fdad34;*/
+  color: #fdad34;
   animation: navbar-current-page-pulse 2s infinite;
 }
 
-@keyframes navbar-current-page-pulse {
+/*@keyframes navbar-current-page-pulse {
   50% { transform: scale(0.95)}
   100% { transform: scale(1)}
- }
+ }*/
 
 
 
@@ -92,7 +94,8 @@ a:visited {
   }
 
 .hover-lightup:hover {
-    color: #66ffff;
+    /*color: #66ffff;*/
+    color: #fdad34;
     filter: drop-shadow(5px 5px 2px rgba(0,0,0,0.3));
     transform: scale(1.1);
 }
@@ -101,9 +104,39 @@ a{
     transition: 1s;
 }
 a:hover {
-    color: #66ffff;
+    /*color: #66ffff;*/
+    color: #fdad34;
     transform: scale(1.2);
 }
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fdad34;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fdad34;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fdad34;
+  background-color: #080808;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #fdad34;
+}
+
+
+
+
+
 
 .jumbotron {
   color: #00264d;

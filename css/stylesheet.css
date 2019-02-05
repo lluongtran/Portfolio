@@ -75,9 +75,24 @@ footer {
   -webkit-transition: 1s;
 }
 
-.img-responsive:hover{
+.magnify-four-percent{
+  transition: 1.5s;
+  -webkit-transition: 1.5s;
+}
+
+.magnify-four-percent:hover{
   filter: drop-shadow(2px 5px 10px #888888);
-  transform: scale(1.05);
+  transform: scale(1.04);
+}
+
+.magnify-one-percent{
+  transition: 1.5s;
+  -webkit-transition: 1.5s;
+}
+
+.magnify-one-percent:hover{
+  filter: drop-shadow(2px 5px 10px #888888);
+  transform: scale(1.01);
 }
 
 a:link {

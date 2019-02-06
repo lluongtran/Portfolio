@@ -69,7 +69,8 @@
     <div class="container-fluid paper-background text-center" style="margin-top:75px;">
       <div class="col-sm-12" style="padding:10px;">
         <h1>NTT Communication</h1>
-        <img class="" src="img/ntt/ntt-mockup.png" alt="Image" style="height:75%; width:75%;">
+        <img class="" src="img/ntt/ntt-mockup.png" alt="Image" style="height:75%; width:75%; cursor:pointer"
+        onclick="onClick(this)">
         <br>
         <font color="#ff9900">
           <h2><u>Overview</u></h2>
@@ -133,7 +134,8 @@
           most recent tax and additional fee rate card, and then calculate the customer facing price. This process took
           the pricing analyst anywhere from 3-10 minute per line item to get from cost to customer facing.<br>
           <br>
-          <img class="" src="img/ntt/al-fp.JPG" alt="Image" style="height:90%; width:90%;"><br>
+          <img class="" src="img/ntt/al-fp.JPG" alt="Image" style="height:90%; width:90%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b><i>Exhibit 1. Pricelist: Confidential price section blacked out</i></b><br>
           <br>
           However, what I quickly realized was that these manual steps that the pricing analyst took could be
@@ -146,7 +148,8 @@
           exhibit 1). If the formula found a match between the variable and the unique ID from the pricelist, it will
           automatically extract the pricing that the analyst needed.<br>
           <br>
-          <img class="" src="img/ntt/the-code.JPG" alt="Image" style="height:90%; width:90%;"><br>
+          <img class="" src="img/ntt/the-code.JPG" alt="Image" style="height:90%; width:90%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b><i>Exhibit 2. The code.</i></b><br>
           <br>
           After several iterations and feedback from all the pricing analysts on the team, I was able to find the most
@@ -155,7 +158,8 @@
           auto-populate for them, add tax, add fees, calculate margin, and prepare the customer facing price. A work
           that used to take 3-10min per line item now only took a few seconds to complete.<br>
           <br>
-          <img class="" src="img/ntt/pricing-tool.JPG" alt="Image" style="height:90%; width:90%;"><br>
+          <img class="" src="img/ntt/pricing-tool.JPG" alt="Image" style="height:90%; width:90%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b><i>Exhibit 3. Pricing Tool: Price in example is arbitrary & for demonstration purpose only</i></b>
         </p>
         <br>
@@ -179,7 +183,8 @@
           solution. An example would be to re-bundle certain product into a new product code in the drop-down menu so
           that the revised product code is consistent across multiple systems.
           <br>
-          <img class="" src="img/ntt/rfq-submission.png" alt="Image" style="height:75%; width:75%;"><br>
+          <img class="" src="img/ntt/rfq-submission.png" alt="Image" style="height:75%; width:75%; cursor:pointer"
+          onclick="onClick(this)"><br>
         </p>
         <br>
 
@@ -201,7 +206,8 @@
           My solution was for the developers to add HTML tags into the notification so that when outlook views the
           message, the message would be organized. I also worked with the developers to include the entire conversation
           history in each of the notifications.<br>
-          <img class="" src="img/ntt/outlook-chat.png" alt="Image" style="height:75%; width:75%;"><br>
+          <img class="" src="img/ntt/outlook-chat.png" alt="Image" style="height:75%; width:75%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <br>
           After resolving the issue with the outlook, we started realizing that outlook was not the best way to capture
           the technical requirements because the customer’s request was changing so rapidly. Since outlook
@@ -212,10 +218,12 @@
           Pre-Sales Portal. This allowed the user to quickly respond to the Virtela team with accuracy and improved
           resource since the user did not have to jump between two systems at the same time.<br>
           <br>
-          <img class="" src="img/ntt/wireframe.png" alt="Image" style="height:75%; width:75%;"><br>
+          <img class="" src="img/ntt/wireframe.png" alt="Image" style="height:75%; width:75%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Microsoft Paint Wireframe</b><br>
           <br>
-          <img class="" src="img/ntt/psp-chat.png" alt="Image" style="height:75%; width:75%;"><br>
+          <img class="" src="img/ntt/psp-chat.png" alt="Image" style="height:75%; width:75%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Updated Pre-Sales Portal</b>
         </p>
       </div>
@@ -225,7 +233,10 @@
   <br>
 
 
-
+  <!-- The Modal -->
+  <div id="modal01" class="modal" onclick="this.style.display='none'">
+    <img class="modal-project-img" id="img01">
+  </div>
 
 
   <!-- Bootstrap core JavaScript -->

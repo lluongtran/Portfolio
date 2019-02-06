@@ -69,7 +69,8 @@
     <div class="container-fluid paper-background text-center" style="margin-top:75px;">
       <div class="col-sm-12" style="padding:10px;">
         <h1>Pinagraph</h1>
-        <img class="" src="img/pinagraph-mockup.png" alt="Image" style="height:75%; width:75%;">
+        <img class="" src="img/pinagraph-mockup.png" alt="Image" style="height:75%; width:75%; cursor:pointer"
+        onclick="onClick(this)">
         <br>
         <font color="#ff9900">
           <h2><u>Overview</u></h2>
@@ -144,13 +145,16 @@
         <p>
           These are some of the early paper prototypes from 2014.<br>
           <br>
-          <img src="img/pinagraph/paper-prototype1.jpg" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/paper-prototype1.jpg" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Mobile Paper-Prototype</b><br>
           <br>
-          <img src="img/pinagraph/paper-prototype2.jpg" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/paper-prototype2.jpg" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Mobile Paper-Prototype</b><br>
           <br>
-          <img src="img/pinagraph/paper-prototype-desktop1.jpg" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/paper-prototype-desktop1.jpg" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Desktop Paper-Prototype</b><br>
         </p>
 
@@ -177,12 +181,15 @@
           errors. If everything was okay, all the inputs the user entered will be converted into a variable and then
           sent to the SQL database for registering the user.<br>
           <br>
-          <img src="img/pinagraph/screenshots/01.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/01.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <br>
-          <img src="img/pinagraph/screenshots/01-code1.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/01-code1.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 1</b><br>
           <br>
-          <img src="img/pinagraph/screenshots/01-code2.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/01-code2.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 2</b><br>
         </p>
         <br>
@@ -194,12 +201,15 @@
           prevent any malicious code and then executes a query to the SQL database to see if there was a match between
           the email and password (exhibit 4 row 101). If there was a match, the user gets logged into their home page.<br>
           <br>
-          <img src="img/pinagraph/screenshots/02.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/02.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <br>
-          <img src="img/pinagraph/screenshots/02-code1.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/02-code1.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 3</b><br>
           <br>
-          <img src="img/pinagraph/screenshots/02-code2.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/02-code2.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 4</b><br>
         </p>
         <br>
@@ -214,12 +224,15 @@
           for each friend that the script extracts from the database, I ran a foreach function that also retrieved the
           friend’s latest post to provide the news feed (exhibit 6 row 95).<br>
           <br>
-          <img src="img/pinagraph/screenshots/03.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/03.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <br>
-          <img src="img/pinagraph/screenshots/03-code1.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/03-code1.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 5</b><br>
           <br>
-          <img src="img/pinagraph/screenshots/03-code2.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/03-code2.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 6</b><br>
         </p>
         <br>
@@ -230,9 +243,11 @@
           and then running a lengthy if statement to gather all the user’s friend list and posts. Afterwards, I have a
           JavaScript code that allows me to connect to the custom map that I created on Mapbox (exhibit 7 row 191).<br>
           <br>
-          <img src="img/pinagraph/screenshots/04.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/04.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <br>
-          <img src="img/pinagraph/screenshots/04-code1.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/04-code1.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 7</b><br>
         </p>
         <br>
@@ -253,15 +268,19 @@
           (exhibit 9 row 236). If the metadata was found, I then ran a lengthy if statement to convert the information
           into coordinates that Mapbox could understand. Finally, for plotting the photo on to the map, I used JSON
           that Mapbox provided and used their markers (exhibit 10 row 123).<br>
-          <img src="img/pinagraph/screenshots/05.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/05.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <br>
-          <img src="img/pinagraph/screenshots/05-code1.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/05-code1.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 8</b><br>
           <br>
-          <img src="img/pinagraph/screenshots/05-code2.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/05-code2.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 9</b><br>
           <br>
-          <img src="img/pinagraph/screenshots/05-code3.png" class="img" width="50%" height="50%"><br>
+          <img src="img/pinagraph/screenshots/05-code3.png" class="img" style="height:50%; width:50%; cursor:pointer"
+          onclick="onClick(this)"><br>
           <b>Exhibit 10</b><br>
         </p>
         <br>
@@ -282,7 +301,10 @@
   <br>
 
 
-
+  <!-- The Modal -->
+  <div id="modal01" class="modal" onclick="this.style.display='none'">
+    <img class="modal-project-img" id="img01">
+  </div>
 
 
   <!-- Bootstrap core JavaScript -->

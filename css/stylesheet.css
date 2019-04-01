@@ -6,6 +6,11 @@ body {
   -o-background-size: cover;
 }
 
+h1 {
+  margin: .67em 0;
+  font-size: 3em;
+}
+
 .navbar-inverse {
   background-color: #ffffff;
   border-color: none;

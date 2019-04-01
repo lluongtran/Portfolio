@@ -71,27 +71,43 @@
     <div class="animate fadeInDown">
         <div class="container-fluid paper-background text-center" style="margin-top:75px;">
             <div class="col-sm-12" style="padding:10px;">
-                <h1>Vos</h1>
-                <img class="" src="img/vos/vos-mockup.png" alt="Image" style="height:75%; width:75%; cursor:pointer"
-                    onclick="onClick(this)">
-                <br>
                 <font color="#ff9900">
-                    <h2><u>Overview</u></h2>
+                    <h1>Vos</h1>
                 </font>
-                <p>
-                    Vos is a lifestyle app that uses machine learning to curate experiences and restaurants.<br>
-                    <br>
-                    <b>Project Type:</b> Class Project<br>
-                    <br>
-                    <b>Team:</b><br>
-                    <b>Lamont</b> - Leader, UX Researcher, & UX/UI Designer<br>
-                    <b>Adrienne</b> - UX Researcher<br>
-                    <b>Gabi</b> - UX Designer<br>
-                    <br>
-                    <b>Tools:</b> Pen + Paper, Sketch, Adobe Illustrator, & Invision
-                </p>
-                <br>
 
+                <div class="col-sm-7" style="padding:10px;">
+                    <img class="" src="img/vos/vos-mockup.png" alt="Image"
+                        style="height:100%; width:100%; cursor:pointer" onclick="onClick(this)">
+                </div>
+
+
+                <div class="col-sm-5" style="padding:10px;">
+                    <h2><u>Overview</u></h2>
+                    <p>
+                        Vos is a lifestyle app that uses machine learning to curate experiences and restaurants.
+                    </p>
+                    <br>
+                    <p style="text-align: left;">
+                        <b>Project Type:</b><br>
+                        Class Project<br>
+                        <br>
+                        <b>Team:</b><br>
+                        <b>Lamont</b> - Leader, UX Researcher, & UX/UI Designer<br>
+                        <b>Adrienne</b> - UX Researcher<br>
+                        <b>Gabi</b> - UX Designer<br>
+                        <br>
+                        <b>Tools:</b><br>
+                        Pen + Paper<br>
+                        Sketch<br>
+                        Adobe Illustrator<br>
+                        Invision
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-12" style="padding:10px;">
+                <hr>
+                <br>
                 <h3>Problem</h3>
                 <p>
                     With so many resources across the internet, users can get lost in a sea of
@@ -105,28 +121,65 @@
 
                 <h3>Challenge</h3>
                 <p>
-                    In order to solve the user problem, our app had to automate this burden. The first challenge was to discover all of these resources and parameters that a user utilize and consider when searching for places. To overcome this challenge, we had to research a wide variety of different types of resources that a
+                    In order to solve the user problem, our app had to automate this burden. The first challenge was to
+                    discover all of these resources and parameters that a user utilize and consider when searching for
+                    places. To overcome this challenge, we had to research a wide variety of different types of
+                    resources that a
                     user will use when looking for places. From this we learned that users use a variety of social media
                     to get inspiration for the choices they pick. For example, Facebook, Twitter, Instagram, and
-                    youtube. We also proceeded with administering surveys and interviews to find other parameters the users take into consideration. This led us to discover other influencers such as friends, families, and local trends.<br>
+                    youtube. We also proceeded with administering surveys and interviews to find other parameters the
+                    users take into consideration. This led us to discover other influencers such as friends, families,
+                    and local trends.<br>
                     <br>
-                    From our study, we identified that a plausible technology solve the user problem was machine learning. However, this posed a 2nd challenge in which each team member had to get educated on how the technology works, the pros, and the cons. After lengthy process of studying how the technology works and use cases, we were confident this technology is the solution to our user problem. Machine learning could take into account user's historical behavior, preferences, circle of connection, location, trends, and various other data points to make recommendations.
+                    From our study, we identified that a plausible technology solve the user problem was machine
+                    learning. However, this posed a 2nd challenge in which each team member had to get educated on how
+                    the technology works, the pros, and the cons. After lengthy process of studying how the technology
+                    works and use cases, we were confident this technology is the solution to our user problem. Machine
+                    learning could take into account user's historical behavior, preferences, circle of connection,
+                    location, trends, and various other data points to make recommendations.
 
                 </p>
                 <br>
 
                 <h3>Design Goal</h3>
+                <h2 id="VosUXProcess"></h2>
                 <p>
-                    For our design goal, we wanted to make an app that was clean and minimalistic. As such, we were inspired to use different palettes of blue as the primary color since this color represents clean and then a lot of whitespace to keep the app minimalistic. The idea of minimalism is important because it enables the app's recommendations to the user to be the center of focus.
+                    For our design goal, we wanted to make an app that was clean and minimalistic. As such, we were
+                    inspired to use different palettes of blue as the primary color since this color represents clean
+                    and then a lot of whitespace to keep the app minimalistic. The idea of minimalism is important
+                    because it enables the app's recommendations to the user to be the center of focus.
 
-                    Since we were also using machine learning as the primary technology for recommending places to users, we also had to somehow collect all of these data without bombarding the user with countless surveys. Our app will begin this by administering a short questionnaire after signing up. Afterwards, the app will allow the user to connect their Vos
-                    profile to other apps like Facebook, Twitter, Instagram, Youtube, and ect. The app will use these 3rd party apps to learn about the user’s historical behavior, preferences, and circle of friends. Overtime, the app will become smarter and be able recommend experiences and restaurants that the user will enjoy without having to spend so much time and energy searching on their own. This is all efficient but also preserving the cleanliness and minimalism of our design goal.
+                    Since we were also using machine learning as the primary technology for recommending places to
+                    users, we also had to somehow collect all of these data without bombarding the user with countless
+                    surveys. Our app will begin this by administering a short questionnaire after signing up.
+                    Afterwards, the app will allow the user to connect their Vos
+                    profile to other apps like Facebook, Twitter, Instagram, Youtube, and ect. The app will use these
+                    3rd party apps to learn about the user’s historical behavior, preferences, and circle of friends.
+                    Overtime, the app will become smarter and be able recommend experiences and restaurants that the
+                    user will enjoy without having to spend so much time and energy searching on their own. This is all
+                    efficient but also preserving the cleanliness and minimalism of our design goal.
                 </p>
                 <br>
 
+                <h3>UX Process</h3>
+                <p>
+                  Our UX process began with the '<a href="#VosDiscover"><b>Discover</b></a>' phase by creating a proto
+                  persona, conducting surveys, performing competitive analysis, and user interview. Afterwards we proceeded with
+                  '<a href="#VosDefine"><b>Defining</b></a>' our ideal users by creating a user persona,
+                  storyboard, and journey map. We then continued with '<a href="#VosDesign"><b>Designing</b></a>' by creating
+                  creating decision flow diagrams and paper prototypes. Finally, to complete our UX process, we  '<a href="#VosDeliver"><b>Delivered</b></a>'
+                  wireframes, a style guide, and the high fidelity prototype.
+                </p>
+        
+                <h2 id="VosDiscover"></h2>
+                <br>
+                <hr>
+                <br>
                 <font color="#ff9900">
                     <h2><u>Discover</u></h2>
                 </font>
+                <a href="#VosUXProcess">Return to UX Process <i class="fas fa-arrow-up"></i></a><br>
+                <br>
                 <h3>Proto Persona</h3>
                 <p>
                     <img src="img/vos/proto-persona.png" class="img" style="height:75%; width:75%; cursor:pointer"
@@ -215,9 +268,14 @@
                 </p>
                 <br>
 
+                <h2 id="VosDefine"></h2>
+                <br>
+                <br>
                 <font color="#ff9900">
                     <h2><u>Define</u></h2>
                 </font>
+                <a href="#VosUXProcess">Return to UX Process <i class="fas fa-arrow-up"></i></a><br>
+                <br>
                 <h3>User Persona</h3>
                 <p>
                     We then revised our proto-persona into a user persona to better reflect the findings in our UX
@@ -247,9 +305,14 @@
                 </p>
                 <br>
 
+                <h2 id="VosDesign"></h2>
+                <br>
+                <br>
                 <font color="#ff9900">
-                    <h2><u>Develop</u></h2>
+                    <h2><u>Design</u></h2>
                 </font>
+                <a href="#VosUXProcess">Return to UX Process <i class="fas fa-arrow-up"></i></a><br>
+                <br>
                 <h3>Decision Flow Diagram</h3>
                 <p>
                     <img src="img/vos/decision-flow-diagram.png" class="img"
@@ -268,9 +331,14 @@
                 </p>
                 <br>
 
+                <h2 id="VosDeliver"></h2>
+                <br>
+                <br>
                 <font color="#ff9900">
                     <h2><u>Deliver</u></h2>
                 </font>
+                <a href="#VosUXProcess">Return to UX Process <i class="fas fa-arrow-up"></i></a><br>
+                <br>
                 <h3>Wireframe</h3>
                 <img src="img/vos/vos-wireframes.png" class="img" style="height:90%; width:90%; cursor:pointer"
                     onclick="onClick(this)">

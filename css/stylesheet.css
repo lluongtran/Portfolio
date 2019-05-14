@@ -209,28 +209,33 @@ a:hover {
 
 /*PROJECT BACKGROUND COLOR*/
 .background-squirrl{
-  /*background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );*/
-  background-image: linear-gradient(to bottom right,#9b18ff, #dcaeff );
+  /*background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );
+  background-image: linear-gradient(to bottom right,#9b18ff, #dcaeff );*/
+  background-image: linear-gradient(to bottom right,#c882fd, #ecd3ff ); /* UPDATED ON 5/14/19*/
 }
 
 .background-nolimits{
-  /*background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );*/
-  background-image: linear-gradient(to bottom right,#fc9a5e, #ffd1b4 );
+  /*background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );
+  background-image: linear-gradient(to bottom right,#fc9a5e, #ffd1b4 );*/
+  background-image: linear-gradient(to bottom right,#ffc39e, #ffe1d0 ); /* UPDATED ON 5/14/19*/
 }
 
 .background-vos{
-  /*background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );*/
-  background-image: linear-gradient(to bottom right,#37a5ff,#b4ddff );
+  /*background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );
+  background-image: linear-gradient(to bottom right,#37a5ff,#b4ddff );*/
+  background-image: linear-gradient(to bottom right,#5db6ff,#b0cbe0 ); /* UPDATED ON 5/14/19*/
 }
 
 .background-pinagraph{
-  /*background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );*/
-  background-image: linear-gradient(to bottom right,#87e6fd, #b4f0ff );
+  /*background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );
+  background-image: linear-gradient(to bottom right,#87e6fd, #b4f0ff );*/
+  background-image: linear-gradient(to bottom right,#a3ebfd, #c1e9f3 ); /* UPDATED ON 5/14/19*/
 }
 
 .background-ntt{
-  /*background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );*/
-  background-image: linear-gradient(to bottom right,#0b3b68, #74bcff );
+  /*background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
+  background-image: linear-gradient(to bottom right,#0b3b68, #74bcff );*/
+  background-image: linear-gradient(to bottom right,#6b9ac5, #b0c4d6 ); /* UPDATED ON 5/14/19*/
 }
 /*END OF PROJECT BACKGROUND COLOR*/
 

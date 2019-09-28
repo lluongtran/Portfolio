@@ -234,8 +234,9 @@ a:hover {
 
 .background-ntt{
   /*background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
-  background-image: linear-gradient(to bottom right,#0b3b68, #74bcff );*/
+  background-image: linear-gradient(to bottom right,#0b3b68, #74bcff );
   background-image: linear-gradient(to bottom right,#00284e, #004886 ); /* UPDATED ON 5/14/19*/
+  background-image: linear-gradient(to bottom right,#383838, #6e6e6e );
 }
 /*END OF PROJECT BACKGROUND COLOR*/
 
